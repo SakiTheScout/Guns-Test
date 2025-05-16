@@ -1,0 +1,30 @@
+[
+// Grenades
+	{
+		"name": "Grenadier",
+		"prerequisites": ["Drill I", "Shock I"],
+		"unitTypes": ["Sword","Gunpowder"],
+		"uniques": ["Comment [Unlocks grenades.]", "[+10]% Strength"],
+		"column": 100,
+		"row": 2},
+	{
+		"name": "Frag Grenades",
+		"prerequisites": ["Grenadier"],
+		"unitTypes": ["Sword","Gunpowder"],
+		"uniques": [
+			"Comment [[Frag Grenade]: Deal 25 extra damage to non-armor unit. Cooldown: 10 turns.]",
+			"[+1]% Strength",
+			"[This Unit] gains the [Frag Grenade] status for [1] turn(s) <for [0] movement> <for units without [Grenade Cooldown]> <hidden from users>"],
+		"innerColor": [180,0,0],
+		"outerColor": [0,0,0],
+		"column": 99,
+		"row": 3},
+	{
+		"name": "Frag Grenade",    
+		"uniques": [
+			"[Target Unit] takes [25] damage <upon damaging a [non-[Armored]] unit>",
+			"[+15]% Strength <vs [non-[Armored]] units>",
+			"[Target Unit] takes [5] damage <upon damaging a [Armored] unit>",
+			"[This Unit] loses the [Frag Grenade] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Grenade Cooldown] status for [10] turn(s) <upon gaining the [Frag Grenade] status>"]},
+]
