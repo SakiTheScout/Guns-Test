@@ -1,30 +1,73 @@
 [
-// Grenades
+	// Firearms
 	{
-		"name": "Grenadier",
-		"prerequisites": ["Drill I", "Shock I"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"uniques": ["Comment [Unlocks grenades.]", "[+10]% Strength"],
+		"name": "Line Infantry",
+		"unitTypes": ["Gunpowder"],
+		"uniques": ["Comment [Unlocks firearms.]", "[+15]% Strength"],
 		"column": 100,
-		"row": 2},
+		"row": 0},
 	{
-		"name": "Frag Grenades",
-		"prerequisites": ["Grenadier"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"name": "Assault Rifles",
+		"prerequisites": ["Line Infantry"],
+		"unitTypes": ["Gunpowder"],
 		"uniques": [
-			"Comment [[Frag Grenade]: Deal 25 extra damage to non-armor unit. Cooldown: 10 turns.]",
+			"Comment [[Assault Rifle]: Fire 3 rounds, each dealing 1-10 damage.]",
 			"[+1]% Strength",
-			"[This Unit] gains the [Frag Grenade] status for [1] turn(s) <for [0] movement> <for units without [Grenade Cooldown]> <hidden from users>"],
-		"innerColor": [180,0,0],
+			"[This Unit] gains the [Assault Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [100,0,0],
 		"outerColor": [0,0,0],
 		"column": 99,
-		"row": 3},
+		"row": 1},
 	{
-		"name": "Frag Grenade",    
+		"name": "Assault Rifle",    
 		"uniques": [
-			"[Target Unit] takes [25] damage <upon damaging a [non-[Armored]] unit>",
-			"[+15]% Strength <vs [non-[Armored]] units>",
-			"[Target Unit] takes [5] damage <upon damaging a [Armored] unit>",
-			"[This Unit] loses the [Frag Grenade] status <upon damaging a [All] unit>",
-			"[This Unit] gains the [Grenade Cooldown] status for [10] turn(s) <upon gaining the [Frag Grenade] status>"]},
+			"[+5]% Strength <vs [non-[Armored]] units>",
+			"[Target Unit] takes [1] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[Target Unit] takes [1] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[Target Unit] takes [1] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Assault Rifle] status>"]},
+	{
+		"name": "Shotguns",
+		"prerequisites": ["Line Infantry"],
+		"unitTypes": ["Gunpowder"],
+		"uniques": [
+			"Comment [[Shotgun]: Fire 3-5 rounds, each dealing 2-8 damage.]",
+			"[+1]% Strength",
+			"[This Unit] gains the [Shotgun] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [0,100,0],
+		"outerColor": [0,0,0],
+		"column": 100,
+		"row": 1},
+	{
+		"name": "Assault Rifle",    
+		"uniques": [
+			"[+5]% Strength <vs [non-[Armored]] units>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Shotgun] status>"]},
+	{
+		"name": "Three-line Rifle",
+		"prerequisites": ["Line Infantry"],
+		"unitTypes": ["Gunpowder"],
+		"uniques": [
+			"Comment [[Three-Line Rifle]: Fire 2 rounds, each dealing 2-15 damage.]",
+			"[+1]% Strength",
+			"[This Unit] gains the [Three-line Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [0,0,100],
+		"outerColor": [0,0,0],
+		"column": 101,
+		"row": 1},
+	{
+		"name": "Three-line Rifle",    
+		"uniques": [
+			"[+5]% Strength <vs [non-[Armored]] units>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Assault Rifle] status>"]},
+	{
+		"name": "Gun Cooldown",
+		"uniques": ["Comment [Gun is on cooldown]"]},
 ]
