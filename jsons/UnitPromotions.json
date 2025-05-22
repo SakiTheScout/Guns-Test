@@ -53,7 +53,7 @@
 			"[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
 			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Shotgun] status>"]},
 	{
-		"name": "Three-line Rifles",
+		"name": "Bolt-action Rifles",
 		"prerequisites": ["Line Infantry"],
 		"unitTypes": ["Gunpowder"],
 		"uniques": [
@@ -61,18 +61,18 @@
 			"Comment [[Three-Line Rifle]: Fire 2 rounds, each dealing 2-15 damage.]",
 			"[+1]% Strength",
 			"Unavailable <for [Firearm] units>",
-			"[This Unit] gains the [Three-line Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+			"[This Unit] gains the [Bolt-action Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
 		"innerColor": [0,0,100],
 		"outerColor": [0,0,0],
 		"column": 101,
 		"row": 1},
 	{
-		"name": "Three-line Rifle",    
+		"name": "Bolt-action Rifle",    
 		"uniques": [
 			"[+5]% Strength <vs [non-[Armored]] units>",
 			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
 			"[Target Unit] takes [2] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
-			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Three-line Rifle] status>"]},
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Bolt-action Rifle] status>"]},
 	{
 		"name": "Assault Infantry",
 		"unitTypes": ["Gunpowder"],
