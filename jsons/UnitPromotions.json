@@ -58,7 +58,7 @@
 		"unitTypes": ["Gunpowder"],
 		"uniques": [
 			"Firearm",
-			"Comment [[Three-Line Rifle]: Fire 2 rounds, each dealing 2-15 damage.]",
+			"Comment [[Bolt-action Rifle]: Fire 2 rounds, each dealing 2-15 damage.]",
 			"[+1]% Strength",
 			"Unavailable <for [Firearm] units>",
 			"[This Unit] gains the [Bolt-action Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
@@ -103,25 +103,25 @@
 			"[Target Unit] takes [1] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>",
 			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Submachine Gun] status>"]},
 	{
-		"name": "Revolvers",
+		"name": "Carbines",
 		"prerequisites": ["Assault Infantry"],
 		"unitTypes": ["Gunpowder"],
 		"uniques": [
 			"Firearm",
-			"Comment [[Revolver]: Fire 1 round, 10-20 damage.]",
+			"Comment [[Carbine]: Fire 1 round, 10-20 damage.]",
 			"[+1]% Strength",
 			"Unavailable <for [Firearm] units>",
 			"[This Unit] gains the [Revolver] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
-		"innerColor": [0,100,0],
+		"innerColor": [0,150,0],
 		"outerColor": [0,0,0],
 		"column": 103,
 		"row": 1},
 	{
-		"name": "Revolver",    
+		"name": "Carbine",    
 		"uniques": [
 			"[+5]% Strength <vs [non-[Armored]] units>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [10]% chance>",
-			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Revolver] status>"]},
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [Carbine] status>"]},
 	{
 		"name": "Pistol",
 		"prerequisites": ["Assault Infantry"],
@@ -132,7 +132,7 @@
 			"[+1]% Strength",
 			"Unavailable <for [Firearm] units>",
 			"[This Unit] gains the [Pistol] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
-		"innerColor": [0,0,100],
+		"innerColor": [0,0,150],
 		"outerColor": [0,0,0],
 		"column": 104,
 		"row": 1},
@@ -147,4 +147,71 @@
 	{
 		"name": "Gun Cooldown",
 		"uniques": ["Comment [Gun is on cooldown]"]},
+	{
+		"name": "Support Infantry",
+		"unitTypes": ["Gunpowder"],
+		"uniques": ["Comment [Unlocks support firearms.]", "[+5]% Strength"],
+		"column": 106,
+		"row": 0},
+	{
+		"name": "Recoilless Rifles",
+		"prerequisites": ["Support Infantry"],
+		"unitTypes": ["Gunpowder"],
+		"uniques": [
+			"Firearm",
+			"Comment [[Recoilless Rifle]: Fire 1 round, dealing 20-36 damage to an armored unit, with 1 turn reloading.]",
+			"[+1]% Strength",
+			"Unavailable <for [Firearm] units>",
+			"[This Unit] gains the [Recoilless Rifle] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [0,0,200],
+		"outerColor": [0,0,0],
+		"column": 105,
+		"row": 1},
+	{
+		"name": "RPG",    
+		"uniques": [
+			"[+15]% Strength <vs [Armored] units>",
+			"[Target Unit] takes [20] damage <upon damaging a [Armored] unit>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [2] turn(s) <upon gaining the [Recoilless Rifle] status>"]},
+	{
+		"name": "RPGs",
+		"prerequisites": ["Support Infantry"],
+		"unitTypes": ["Gunpowder"],
+		"uniques": [
+			"Firearm",
+			"Comment [[RPG]: Fire 1 round, dealing 11-25 damage to an armored unit.]",
+			"[+1]% Strength",
+			"Unavailable <for [Firearm] units>",
+			"[This Unit] gains the [RPG] status for [1] turn(s) <for [0] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [0,200,0],
+		"outerColor": [0,0,0],
+		"column": 106,
+		"row": 1},
+	{
+		"name": "RPG",    
+		"uniques": [
+			"[+15]% Strength <vs [Armored] units>",
+			"[Target Unit] takes [11] damage <upon damaging a [Armored] unit>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [1] turn(s) <upon gaining the [RPG] status>"]},
+	{
+		"name": "ATGMs",
+		"prerequisites": ["Support Infantry"],
+		"unitTypes": ["Gunpowder"],
+		"uniques": [
+			"Firearm",
+			"Comment [[ATGM]: Fire 1 round, dealing 30-50 damage to an armored unit, with a cooldown of 2 turns and reducing this unit's movement by 1.]",
+			"[+1]% Strength",
+			"[-1] Movement",
+			"Unavailable <for [Firearm] units>",
+			"[This Unit] gains the [ATGM] status for [1] turn(s) <for [1] movement> <for units without [Gun Cooldown]> <hidden from users>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+		"column": 107,
+		"row": 1},
+	{
+		"name": "ATGM",    
+		"uniques": [
+			"[+30]% Strength <vs [Armored] units>",
+			"[Target Unit] takes [30] damage <upon damaging a [Armored] unit>", "[Target Unit] takes [4] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [4] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>",
+			"[This Unit] gains the [Gun Cooldown] status for [3] turn(s) <upon gaining the [ATGM] status>"]},
 ]
