@@ -11,6 +11,6 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow",
-    "uniques": ["[Target unit] gains the [Blast1] status for [1] turn(s)", "[20] Sight", "Ranged attacks may be performed over obstacles", "Can see over obstacles"]
+    "uniques": ["[Target Unit] gains the [Blast1] status for [1] turn(s)", "[20] Sight", "Ranged attacks may be performed over obstacles", "Can see over obstacles"]
 	}
 ]
