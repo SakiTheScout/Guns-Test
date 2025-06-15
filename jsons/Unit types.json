@@ -1,0 +1,7 @@
+[
+  {
+        "name": "Sword",
+        "movementType": "Land",
+        "uniques": ["[This unit] takes [10] damage <upon turn end> <when adjacent to a [Blast1] unit>"]
+  }
+]
