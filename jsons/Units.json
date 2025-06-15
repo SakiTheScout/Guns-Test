@@ -1,7 +1,8 @@
 [
   {
-		"name": "Archer",
+		"name": "Special Archer",
 		"unitType": "Archery",
+	        "uniqueTo": "America",
 		"movement": 2,
 		"strength": 5,
                 "range": 20,
