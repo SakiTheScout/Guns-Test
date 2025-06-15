@@ -4,13 +4,13 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
-    "range": 20,
+                "range": 20,
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow",
-    "uniques": ["Nuclear weapon of Strength [1]", "Blast radius [1]", "[20] Sight", "Ranged attacks may be performed over obstacles", "Can see over obstacles"]
+    "uniques": ["Nuclear weapon of Strength [0]", "Blast radius [1]", "[20] Sight", "Ranged attacks may be performed over obstacles", "Can see over obstacles"]
 	}
 ]
