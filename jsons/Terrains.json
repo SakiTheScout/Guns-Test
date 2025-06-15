@@ -5,6 +5,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
+	        "occursOn": ["snow"],
 		"defenceBonus": -0.15
 	},
 ]
