@@ -8,7 +8,7 @@
 		"range": 1,
 		"cost": 1,
 		"requiredTech": "Robotics",
-	    "uniques": ["Can transform to [Imperial Knight Ranged] <for [0] movement>"],
+	    "uniques": ["Can transform to [Imperial Knight Ranged] <for [0] movement> <if it hasn't used other actions yet>"],
 	    "promotions": ["Body", "Right Arm", "Left Arm", "Legs", "Damage", "Shield"],
 		"attackSound": "tankshot"
   },
@@ -21,7 +21,7 @@
 		"range": 1,
 		"cost": 1,
 		"requiredTech": "Robotics",
-	    "uniques": ["Can transform to [Imperial Knight] <for [0] movement>"],
+	    "uniques": ["Can transform to [Imperial Knight] <for [0] movement> <if it hasn't used other actions yet>"],
 	    "promotions": ["Body", "Right Arm", "Left Arm", "Legs", "Damage", "Shield"],
 		"attackSound": "tankshot"
   }
