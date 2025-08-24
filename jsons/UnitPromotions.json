@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Legs",
-		"uniques": ["[+4] Movement"],
+		"uniques": ["[+3] Movement"],
 		"innerColor": [200,200,0],
 		"outerColor": [0,0,0],
 	},
