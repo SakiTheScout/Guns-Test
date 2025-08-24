@@ -2,6 +2,6 @@
   {
         "name": "Sword",
         "movementType": "Land",
-        "uniques": ["[This Unit] takes [10] damage <upon turn end> <when adjacent to a [Blast1] unit>"]
+        "uniques": ["Comment [Huh?]"]
   }
 ]
