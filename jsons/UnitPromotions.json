@@ -1,4 +1,40 @@
 [
+	{
+		"name": "Body",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
+	{
+		"name": "Shield",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
+	{
+		"name": "Legs",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
+	{
+		"name": "Right Arm",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
+	{
+		"name": "Left Arm",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
+	{
+		"name": "Damage",
+		"uniques": ["[This Unit] is destroyed <upon losing the [Body] promotion>"],
+		"innerColor": [200,0,0],
+		"outerColor": [0,0,0],
+	},
 	// Firearms
 	{
 		"name": "Line Infantry",
@@ -214,7 +250,4 @@
 			"[+30]% Strength <vs [Armored] units>",
 			"[Target Unit] takes [30] damage <upon damaging a [Armored] unit>", "[Target Unit] takes [4] damage <upon damaging a [All] unit> <with [90]% chance>", "[Target Unit] takes [4] damage <upon damaging a [All] unit> <with [80]% chance>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [70]% chance>", "[Target Unit] takes [3] damage <upon damaging a [All] unit> <with [60]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [50]% chance>", "[Target Unit] takes [2] damage <upon damaging a [All] unit> <with [40]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>",
 			"[This Unit] gains the [Gun Cooldown] status for [3] turn(s) <upon gaining the [ATGM] status>"]},
-	{
-		"name": "Blast1",
-		"uniques": ["Comment [What?!]"]},
 ]
