@@ -47,6 +47,7 @@
 	},
 	{
 		"name": "Battle Cannon (R)",
+		"prerequisites": ["Right Arm"],
 		"uniques":  [
 			"[This Unit] loses the [Chainsword (R)] promotion",
 			"[This Unit] gains the [Battle Cannon R] status for [1] turn(s) <for [0] movement> <for [Imperial Knight Ranged] units> <for units with [Right Arm]> <for units without [Gun Cooldown]> <hidden from users>"],
@@ -55,6 +56,7 @@
 	},
 	{
 		"name": "Chainsword (R)",
+		"prerequisites": ["Right Arm"],
 		"uniques":  [
 			"[This Unit] loses the [Battle Cannon (R)] promotion",
 			"[+25]% Strength <vs [non-[Armored]] units> <for [Imperial Knight] units>"],
@@ -73,6 +75,7 @@
 		"uniques": ["Comment [Right gun is on cooldown]"]},
 	{
 		"name": "Battle Cannon (L)",
+		"prerequisites": ["Left Arm"],
 		"uniques":  [
 			"[This Unit] loses the [Chainsword (L)] promotion",
 			"[This Unit] gains the [Battle Cannon L] status for [1] turn(s) <for [0] movement> <for [Imperial Knight Ranged] units> <for units with [Left Arm]> <for units without [Gun Cooldown]> <hidden from users>"],
@@ -81,6 +84,7 @@
 	},
 	{
 		"name": "Chainsword (L)",
+		"prerequisites": ["Left Arm"],
 		"uniques":  [
 			"[This Unit] loses the [Battle Cannon (L)] promotion",
 			"[+25]% Strength <vs [non-[Armored]] units> <for [Imperial Knight] units>"],
