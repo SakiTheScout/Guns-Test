@@ -1,17 +1,28 @@
 [
   {
-		"name": "Special Archer",
+		"name": "Imperial Knight",
+		"unitType": "Sword",
+		"movement": 0,
+		"strength": 400,
+		"rangedStrength": 400,
+		"range": 1,
+		"cost": 1,
+		"requiredTech": "Robotics",
+	    "uniques": ["Can transform to [Imperial Knight Ranged] <for [0] movement>"],
+	    "promotions": ["Body", "Right Arm", "Left Arm", "Legs", "Damage", "Shield"],
+		"attackSound": "tankshot"
+  },
+  {
+		"name": "Imperial Knight Ranged",
 		"unitType": "Archery",
-	        "uniqueTo": "America",
-		"movement": 2,
-		"strength": 5,
-                "range": 20,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow",
-    "uniques": ["[Target Unit] gains the [Blast1] status for [1] turn(s)", "[20] Sight", "Ranged attacks may be performed over obstacles", "Can see over obstacles"]
-	}
+		"movement": 0,
+		"strength": 400,
+		"rangedStrength": 400,
+		"range": 1,
+		"cost": 1,
+		"requiredTech": "Robotics",
+	    "uniques": ["Can transform to [Imperial Knight] <for [0] movement>"],
+	    "promotions": ["Body", "Right Arm", "Left Arm", "Legs", "Damage", "Shield"],
+		"attackSound": "tankshot"
+  }
 ]
