@@ -2,7 +2,7 @@
   {
 		"name": "Imperial Knight",
 		"unitType": "Sword",
-		"movement": 0,
+		"movement": 1,
 		"strength": 400,
 		"rangedStrength": 400,
 		"range": 1,
@@ -15,7 +15,7 @@
   {
 		"name": "Imperial Knight Ranged",
 		"unitType": "Archery",
-		"movement": 0,
+		"movement": 1,
 		"strength": 400,
 		"rangedStrength": 400,
 		"range": 1,
