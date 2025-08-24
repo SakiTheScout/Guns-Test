@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Legs",
-		"uniques": ["[4] Movement"],
+		"uniques": ["[+4] Movement"],
 		"innerColor": [200,200,0],
 		"outerColor": [0,0,0],
 	},
@@ -33,6 +33,7 @@
 		"name": "Damage",
 		"uniques": [
 		"[This Unit] loses the [Legs] promotion <with [100]% chance> <upon losing at least [1] HP in a single attack>",
+		"[-1] Movement <for [non-[Legs]] units>",
 		"[This Unit] gains the [Legs] promotion <when above [99] HP>"],
 		"innerColor": [200,0,0],
 		"outerColor": [0,0,0],
